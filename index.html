@@ -19,7 +19,7 @@
 
     <!----------------------------------- Navigation Menu with fixed position ----------------------------------->
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top d-flex flex-lg-row justify-content-evenly align-items-center ">
+        <nav class="navbar navbar-expand-lg fixed-top d-md-flex flex-lg-row justify-content-evenly align-items-center ">
             <div class="container-fluid align-items-center">
                 <a class="navbar-brand" href="#">BrandName</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -38,7 +38,7 @@
                             <a class="nav-link" href="#">Pricing</a>
                         </li>
                     </ul> -->
-                    <ul class="navbar-nav w-100">
+                    <ul class="navbar-nav text-light d-block d-md-flex w-100">
                         <li class="p-2 nav-item me-auto">Home</li>
                         <li class="p-2 nav-item me-auto">Product</li>
                         <li class="p-2 nav-item me-auto">Pricing</li>
@@ -80,43 +80,43 @@
         <!---------------------------------------------- Start of Second Section   ----------------------------------------------->
         <section id="section2">
             <div class="card-group">
-                <div class="card text-center">
+                <div class="card text-center text-light" id="card">
                     <img src="./assets/wallet.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Peace of Mind</h5>
+                        <h5 class="card-title" id="card-title">Peace of Mind</h5>
                         <p class="card-text">So it really behaves like neither. Now we have given up.</p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center text-light" id="card">
                     <img src="./assets/bookmark.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Set For Life</h5>
+                        <h5 class="card-title" id="card-title">Set For Life</h5>
                         <p class="card-text">They were used to create machines that launched.</p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center text-light" id="card">
                     <img src="./assets/persons.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">100% Satisfaction</h5>
+                        <h5 class="card-title" id="card-title">100% Satisfaction</h5>
                         <p class="card-text">So it really behaves like neither. Now we have given up.</p>
                     </div>
                 </div>
             </div>
         </section>
         <!---------------------------------------------- Start of Third Section   ----------------------------------------------->
-        <section style="background-color: rgb(142, 194, 242) ; align-self:center">
-            <div class="d-flex flex-column" style="font-size: 0.5rem; padding-top: 10%; padding-bottom:3%;">
-                <h1 class="text-center" style="padding-bottom: 1%; font-size: 2.5rem;">
+        <section class= "align-self-center" style="background-color: rgb(142, 194, 242)">
+            <div class="d-flex flex-column py-5">
+                <h1 class="text-center text-light pb-5">
                     Industry
                 </h1>
-                <p class="text-center" style="font-size: 1rem; padding-left: 25%; padding-right: 25%;">
+                <p class="text-center text-light w-50 mx-auto">
                     Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian
                     mechanics
                 </p>
 
             </div>
             <div class="card-group flex-row justify-content-evenly">
-                <div class="d-flex card2 mw-100 position-relative" style="width: 500px;">
+                <div class="d-flex card2 position-relative" style="max-width: 500px;">
                     <img class="position-absolute top-150 start-50 translate-middle" src="./assets/person1.png" alt=""
                         style="max-width: 70px; height: 70px;">
                     <div class="card-body2">
@@ -132,7 +132,7 @@
                             of time first and then space.</p>
                     </div>
                 </div>
-                <div class="d-flex card2 mw-100 position-relative" style="width: 500px;">
+                <div class="d-flex card2 position-relative" style="max-width: 500px;">
                     <img class="position-absolute top-150 start-50 translate-middle" src="./assets/person2.png" alt=""
                         style="max-width: 70px; height: 70px; top: 20px;">
                     <div class="card-body2">
@@ -250,7 +250,7 @@
         <section
           class="container d-flex gap-3 flex-wrap justify-content-center"
         >
-          <div class="card text-center py-5 px-4" style="width: 20rem">
+          <div class="card text-center py-5 px-4" style="width: 22rem">
             <div class="pb-4">
               <h2 class="card-title fw-bold text-uppercase fs-4">Free</h2>
               <p class="card-text w-50 text-center mx-auto text-secondary">
@@ -300,7 +300,7 @@
               </ul>
             </div>
           </div>
-          <div class="card text-center py-5 px-4" style="width: 20rem">
+          <div class="card text-center py-5 px-4" style="width: 22rem">
             <span
               class="position-absolute top-0 translate-middle badge rounded-circle py-4 px-2 fw-bold fs-4"
               style="left: 80%; background-color: #e77c40"
@@ -358,7 +358,7 @@
               </ul>
             </div>
           </div>
-          <div class="card text-center py-5 px-4" style="width: 20rem">
+          <div class="card text-center py-5 px-4" style="width: 22rem">
             <div class="pb-4">
               <h2 class="card-title fw-bold text-uppercase fs-4">Gold</h2>
               <p class="card-text w-50 text-center mx-auto text-secondary">

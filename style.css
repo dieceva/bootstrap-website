@@ -1,8 +1,6 @@
 @media screen and (max-width: 768px) {
     .navbar-nav {
         background-color: rgb(37, 43, 66,0.5);
-        display:block;
-        text-align: center;
     }
     
     .btn-primary {
@@ -13,9 +11,6 @@
     }
 }
 *{
-    text-decoration: none;
-    list-style: none;
-    color: white;
     font-family: 'montserrat';
 
 }
@@ -87,19 +82,20 @@ h1 {
     align-self: center;
 }
 
-.card {
+#card {
     background-color: rgb(37, 43, 66);
     max-width: 90%;
     padding: 5%;
     font-size: 0.9rem;
-   
 }
-.card-title {
+
+#card-title {
     color: white;
     text-align: center;
     padding-top:3%;
     padding-bottom: 3%;
 }
+
 
 
        
